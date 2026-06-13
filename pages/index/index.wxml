@@ -1,3 +1,28 @@
 <view class="home-page">
-  <image class="brand-logo" src="/assets/home/logo.png" mode="widthFix" />
+  <view class="top-panel">
+    <image class="brand-logo" src="/assets/home/logo.png" mode="widthFix" />
+  </view>
+  <view class="main-shell">
+    <view class="hero-card">
+      <image class="hero-banner" src="/assets/home/banner.png" mode="aspectFill" />
+      <view class="entry-row">
+        <view class="entry-item"><image class="entry-image" src="/assets/home/entry-ticket.png" mode="aspectFit" /><text class="entry-label">购票充值</text></view>
+        <view class="entry-item"><image class="entry-image" src="/assets/home/entry-booking.png" mode="aspectFit" /><text class="entry-label">预约到店</text></view>
+        <view class="entry-item"><image class="entry-image" src="/assets/home/entry-activity.png" mode="aspectFit" /><text class="entry-label">活动表</text></view>
+        <view class="entry-item"><image class="entry-image" src="/assets/home/entry-scan.png" mode="aspectFit" /><text class="entry-label">扫码</text></view>
+      </view>
+    </view>
+    <view class="intro-section">
+      <text class="section-title">门店介绍</text>
+      <view class="intro-card">
+        <view class="cover-wrap"><image class="store-cover" src="/assets/home/store-cover.png" mode="aspectFill" /><view class="play-button"><view class="play-triangle"></view></view></view>
+        <view class="store-info"><view class="store-meta"><text class="store-name">欢乐时光主题乐园</text><text class="store-address">阳光市中心广场3楼</text></view><text class="store-score">4.9</text></view>
+      </view>
+    </view>
+  </view>
+  <view class="tabbar">
+    <view class="tab-item active"><view class="tab-icon home"></view><text>首页</text></view>
+    <view class="tab-item"><view class="tab-icon shop"></view><text>商品</text></view>
+    <view class="tab-item"><view class="tab-icon mine"></view><text>我的</text></view>
+  </view>
 </view>
