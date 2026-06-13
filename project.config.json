@@ -1,0 +1,13 @@
+{
+  "description": "Happy Playtime WeChat mini program homepage template",
+  "compileType": "miniprogram",
+  "libVersion": "latest",
+  "appid": "touristappid",
+  "projectname": "mengyu",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  }
+}
