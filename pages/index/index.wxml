@@ -1,9 +1,5 @@
 <view class="home-page">
   <view class="top-white">
-    <view class="status-row">
-      <view class="menu-button"><view></view><view></view><view></view></view>
-      <view class="mini-capsule"><text>...</text><view class="capsule-divider"></view><view class="capsule-circle"></view></view>
-    </view>
     <view class="brand-logo">
       <text class="brand-small">{{brand.en}}</text>
       <text class="brand-main">{{brand.main}}</text>
